@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+a.active {
+  color: rgba(116, 104, 184, 1);
+  border-bottom: 1px solid rgba(116, 104, 184, 1);
+}
+
+.side-link {
+  color: white;background-color: rgba(116, 104, 184, 1);
+
+  font-weight: 400;
+}
+
+.notactive{
+  color: rgba(133, 140, 148, 1);
+  font-weight: 400;
+}
+
+ .notactive:hover{
+  color: rgba(133, 140, 148, 1);
+  background-color: rgb(246, 246, 246);
+  transition: 0.4s;
+}
+.side-link:hover {
+  transition: 0.4s;
+  color: white;
+  background-color: rgb(89, 76, 162);
+}
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+.tarea::placeholder ,  ::placeholder {
+  color:rgba(223, 223, 223, 1);
+  opacity: 1; /* Firefox */
+}
+
+.form-control:focus {
+  border-color:rgba(116, 104, 184, 1);
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0);
+} 
+
+.form-control::placeholder{
+  color:rgba(223, 223, 223, 1);
+}
+
+
+.cut-text { 
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 500px; 
+  /* height: 1.2em;  */
+  white-space: nowrap;
+}
+.progress-bar {
+  background-color: inherit;
+}
+
+
+
+
+.form-control {
+  height: 1.2cm;
+  padding: 10px;
+  border-radius: 8px;
+  color:rgb(160, 160, 160) ;
+  padding: 10px;
+} 
+
+.show{
+  
+  transform-origin: top;
+  transform:scaleY(1) ;
+  transition: 0.2s; 
+  height: auto;
+}
+.hide{
+  /* display: none; */
+  transition: 0.2s;
+  transform:scaleY(0) ;height: 0px;
+}
+.shadoww{
+  box-shadow: 0px 4px 30px 0px rgba(108, 97, 168, 0.1);;
+  /* -webkit-box-shadow: 3px 8px 11px -3px rgba(0,0,0,0.21);
+  -moz-box-shadow: 3px 8px 11px -3px rgba(0,0,0,0.21); */
+}
